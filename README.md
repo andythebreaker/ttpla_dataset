@@ -1,3 +1,5 @@
+資料源需https://www.ferrobackup.com/free-zip-repair-tool.html恢復
+
 # TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Lines
 
 TTPLA is a public dataset which is a collection of aerial images on
