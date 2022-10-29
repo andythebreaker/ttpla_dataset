@@ -19,11 +19,17 @@ The repository includes:
 1. Modify `resize_image_and_annotation-final.py` to use the target image dimension (line 10). Then, call the script using
 `python resize_image_and_annotation-final.py -t <images_path>`. It will produce new folder called `sized_data`.
 
+-[x] finish
+
 2. Then call `remove_void.py` to remove `void` label if you would like to remove it.
 `python remove_void.py -t <sized_images_path>`. It will produce new folder called `newjsons`, you may renamed to whatever is fit.
 
+-[x] finish
+
 3. Based on three lists of train.txt, test.txt, and val.txt, `split_jsons.py` is used to split the created `newjsons` to three folders `train` , `val`, and `test` to prepare this before get the `COCO` json file.You can use the following command.
 `python split_jsons.py -t newjsons/`. It will produce new folder called `splitting_jsons`, you may renamed to whatever is fit.
+
+-[ ] finish
 
 5. Use `labelme2coco_2.py` to get the `COCO_json` that used by `Yolact`.
 `python labelme2coco_2.py splitting_jsons/train_jsons/`. This step is done for three folders `train_jsons` , `val_jsons`, and `test_jsons`.
