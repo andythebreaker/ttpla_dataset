@@ -29,10 +29,12 @@ The repository includes:
 3. Based on three lists of train.txt, test.txt, and val.txt, `split_jsons.py` is used to split the created `newjsons` to three folders `train` , `val`, and `test` to prepare this before get the `COCO` json file.You can use the following command.
 `python split_jsons.py -t newjsons/`. It will produce new folder called `splitting_jsons`, you may renamed to whatever is fit.
 
--[ ] finish
+-[x] finish
 
 5. Use `labelme2coco_2.py` to get the `COCO_json` that used by `Yolact`.
 `python labelme2coco_2.py splitting_jsons/train_jsons/`. This step is done for three folders `train_jsons` , `val_jsons`, and `test_jsons`.
+
+-[ ] finish
 
  ### Tips to use our files directly
   * Install yolact [Yolact](https://github.com/dbolya/yolact#evaluation).
