@@ -41,19 +41,19 @@ The repository includes:
  ### Tips to use our files directly
   * Install yolact [Yolact](https://github.com/dbolya/yolact#evaluation).
 
--[ ] finish
+-[x] finish
 
   * Rename `yolact` folder to `yolact700`. Based on different sizes, it can rename also to `yolact550` or `yolact640`.
 
--[ ] finish
+-[x] finish
 
  * In setp 1 in `Prepration data`, rename the generated `sized_data` folder name to `data_700x700` and upload in `yolact700/data/data_700x700`. Based on different sizes, `data_550x550` and `data_640x360` are the other named folders with different sizes.
 
--[ ] finish
+-[x] finish
 
   * Use the suitable configuration from next table according to image size and backbone. Rename the picked config file to config.py and insert in `yolact700/data/`.
 
--[ ] finish
+-[x] finish
 
 * The generated json from step 5 in `Prepration data`, rename to `train_coco_700x700`, `2_test_json700`, `2_val_json700` and put them into `yolact700/data/` if you would like to use our config file directly or you can use any name and modify the pathes into config file.
 
