@@ -1,3 +1,16 @@
+todo 
+
+Manually with pip
+Set up a Python3 environment (e.g., using virtenv).
+Install Pytorch 1.0.1 (or higher) and TorchVision.
+Install some other packages:
+# Cython needs to be installed before pycocotools
+pip install cython
+pip install opencv-python pillow pycocotools matplotlib 
+
+用3.5版試試
+
+
 資料源需https://www.ferrobackup.com/free-zip-repair-tool.html恢復
 
 # TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Lines
