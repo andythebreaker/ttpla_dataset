@@ -31,18 +31,34 @@ The repository includes:
 
 -[x] finish
 
+> 要安裝一個PIP套件
+
 5. Use `labelme2coco_2.py` to get the `COCO_json` that used by `Yolact`.
 `python labelme2coco_2.py splitting_jsons/train_jsons/`. This step is done for three folders `train_jsons` , `val_jsons`, and `test_jsons`.
 
--[ ] finish
+-[x] finish
 
  ### Tips to use our files directly
   * Install yolact [Yolact](https://github.com/dbolya/yolact#evaluation).
+
+-[ ] finish
+
   * Rename `yolact` folder to `yolact700`. Based on different sizes, it can rename also to `yolact550` or `yolact640`.
-  * In setp 1 in `Prepration data`, rename the generated `sized_data` folder name to `data_700x700` and upload in `yolact700/data/data_700x700`. Based on different sizes, `data_550x550` and `data_640x360` are the other named folders with different sizes.
+
+-[ ] finish
+
+ * In setp 1 in `Prepration data`, rename the generated `sized_data` folder name to `data_700x700` and upload in `yolact700/data/data_700x700`. Based on different sizes, `data_550x550` and `data_640x360` are the other named folders with different sizes.
+
+-[ ] finish
+
   * Use the suitable configuration from next table according to image size and backbone. Rename the picked config file to config.py and insert in `yolact700/data/`.
-  * The generated json from step 5 in `Prepration data`, rename to `train_coco_700x700`, `2_test_json700`, `2_val_json700` and put them into `yolact700/data/` if you would like to use our config file directly or you can use any name and modify the pathes into config file.
-  
+
+-[ ] finish
+
+* The generated json from step 5 in `Prepration data`, rename to `train_coco_700x700`, `2_test_json700`, `2_val_json700` and put them into `yolact700/data/` if you would like to use our config file directly or you can use any name and modify the pathes into config file.
+
+-[ ] finish
+
 ## Train Model:
 For train image for example with size 700x700, 
 ```
